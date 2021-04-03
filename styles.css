@@ -10,11 +10,36 @@ body {
     font-family: Roboto;
 }
 
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    height: 4em;
+    transition: background-color 0.4s ease-out;
+}
+
+nav.scroll {
+    background-color: #29ca8e;
+    color: #ffffff;
+    padding-bottom: 5.5rem;
+    font-weight: bold;
+}
+
+nav.scroll #main-nav li a:hover {
+    color: white;
+    transition: 0.3s ease-in;
+    transform: scale(1.2);
+    font-weight: 900;
+}
+
 #main-nav {
-    padding-top: 2.8rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    top: 10px;
 }
 
 #main-nav li {
@@ -25,7 +50,6 @@ body {
 #main-nav li a {
     text-decoration: none;
     color: white;
-    z-index: 1;
     font-size: 1.1rem;
 }
 
@@ -45,10 +69,13 @@ body {
 }
 
 #home {
+    position: relative;
+    padding-top: 2.8rem;
     min-height: 100vh;
     background-image: url(images/home-bg.jpg);
     background-size: cover;
     vertical-align: middle;
+    background-attachment: fixed;
 }
 
 .overlay {
@@ -70,9 +97,10 @@ body {
 
 .small-heading {
     margin-top: 300px;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     letter-spacing: 4px;
     color: rgb(240, 240, 240);
+    text-transform: uppercase;
 }
 
 .home-heading {
