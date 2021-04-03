@@ -56,11 +56,11 @@ nav.scroll #main-nav li a:hover {
 #main-nav #logo-name a {
     font-size: 1.8rem;
     font-weight: bold;
-    margin-right: 130px;
+    margin-right: 70px;
 }
 
 #main-nav #email-menu a {
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 #main-nav li a:hover {
@@ -151,4 +151,27 @@ svg {
 
 img {
     max-width: 100%;
+}
+
+@media (max-width: 1024px),
+@media (max-width: 768px) {
+    #main-nav li {
+        margin-right: 20px;
+    }
+
+    #main-nav li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+
+    #main-nav #logo-name a {
+        font-size: 1.7rem;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    #main-nav #email-menu a {
+        margin-left: 20px;
+    }
 }
