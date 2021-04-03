@@ -150,7 +150,7 @@ input[type=submit]:hover {
 }
 
 #features {
-    height: 90vh;
+    height: 100vh;
 }
 
 .features-container {
@@ -217,7 +217,6 @@ figure {
     position: absolute;
     top: 500;
     left: 900px;
-    /*    margin-top: 70px;*/
     width: 600px;
     max-width: 100%;
     height: auto;
