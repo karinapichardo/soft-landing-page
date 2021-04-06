@@ -8,6 +8,7 @@
 
 body {
     font-family: Roboto;
+    background-color: #f9f9f9;
 }
 
 input[type=checkbox] {
@@ -97,10 +98,10 @@ nav.scroll #main-nav li a:hover {
 .content-container {
     opacity: 0.9;
     text-align: center;
+    margin-top: 20%;
 }
 
 .small-heading {
-    margin-top: 300px;
     font-size: 0.8rem;
     letter-spacing: 4px;
     color: rgb(240, 240, 240);
@@ -150,36 +151,56 @@ input[type=submit]:hover {
 }
 
 #features {
-    height: 100vh;
+    height: 90vh;
+    margin-bottom: 8%;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .features-container {
-    margin-left: 300px;
-    align-items: center;
-    margin-top: 120px;
-    float: left;
-    width: 480px;
-    height: 480px;
+    display: flex;
+    direction: column;
+    width: 550px;
+    height: 500px;
+}
+
+figure {
+    height: 500px;
+    display: flex;
+    direction: column;
+    margin-top: -350px;
+}
+
+.laptop {
+    width: 550px;
+    height: 550px;
 }
 
 .features-heading {
+    padding-top: 8%;
     font-size: 2.8rem;
     letter-spacing: 2px;
     font-weight: 100;
     margin-bottom: 50px;
+    text-align: center;
 }
 
-#features-list {
-    display: flex;
-}
 
 #features-list li {
-    display: flex;
+    display: inline-block;
+    list-style: none;
     margin-right: 30px;
     font-size: 1.3rem;
     margin-bottom: 40px;
     color: #999999;
     cursor: pointer;
+
 }
 
 #features-list li:hover {
@@ -206,33 +227,324 @@ input[type=submit]:hover {
     display: none;
 }
 
-figure {
-    /*    float: right;*/
-    /*    margin-right: 200px;*/
-}
-
-.laptop {
-    margin-top: 40px;
-    display: block;
-    position: absolute;
-    top: 500;
-    left: 900px;
-    width: 600px;
-    max-width: 100%;
-    height: auto;
-    margin-left: -75px;
-}
-
 .heading {
     text-align: center;
     font-size: 2.6rem;
     font-weight: 100;
     letter-spacing: 1px;
+    margin-top: -5%;
+    margin-bottom: 2%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6%;
+}
+
+.team-info {
+    margin-left: 40px;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    width: 400px;
+    margin-top: -20px;
+    margin-left: -1px;
+}
+
+#team2 {
+    margin-top: 20px;
+}
+
+.team-img {
     margin-bottom: 20px;
 }
 
-svg {
+.team-name {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.job-description {
+    color: #757575;
+    line-height: 1.8;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.img-pointer {
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-top: 15px solid white;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    position: relative;
+    top: 23px;
+    display: block;
+    margin-top: -15px;
+
+}
+
+.img-pointer2 {
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid white;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    position: relative;
+    bottom: 35px;
+    margin-bottom: -35px;
+    display: block;
+}
+
+#reviews {
+    background-color: white;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.review-container {
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-img {
+    width: 730px;
+    height: 550px;
+}
+
+.testimonials {
+    background-color: #202020;
+    color: white;
+    height: 550px;
+    width: 550px;
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+    position: relative;
+}
+
+.review-photo {
+    display: flex;
+    direction: column;
+}
+
+.review-heading {
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.review-paragraph {
+    font-size: 1.6rem;
+    font-style: italic;
+    line-height: 1.5;
+    font-weight: 100;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.test-img {
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 60px;
+    margin-left: 10px;
+
+}
+
+.tst-name {
+    padding-top: 18px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+#tst2,
+#tst3 {
+    display: none;
+}
+
+.dot-container {
+    position: absolute;
+    text-align: center;
+    bottom: 70px;
+    left: 100px;
+    right: 100px;
+}
+
+.dot {
     width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.dot:hover {
+    background-color: #869791;
+    transition: opacity 0.2s ease;
+}
+
+.pricing-heading,
+.contact-heading {
+    font-size: 2.8rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 30px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+    grid-column-gap: 0.2rem;
+}
+
+.plan-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    padding-left: 45px;
+}
+
+.plan-heading {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.plan-list {
+    color: #757575;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 2.5;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.price-month {
+    padding-top: 20px;
+}
+
+.plan-btn {
+    background-color: #29ca8e;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-top: -35px;
+    margin-right: 60px;
+    outline: none;
+}
+
+.plan-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    border-color: #f0f0f0;
+    margin: auto 45px;
+    margin-left: 0px;
+}
+
+#contact {
+    background-color: white;
+    text-align: center;
+}
+
+#contact-form {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+#name,
+#contact-email {
+    padding: 1rem;
+    width: 400px;
+    outline-color: #29ca8e;
+    margin-right: -3px;
+    font-size: 1.2rem;
+}
+
+#message {
+    padding: 1rem;
+    width: 800px;
+    outline-color: #29ca8e;
+    font-size: 1.6rem;
+    color: #bdbdbd;
+}
+
+#submit {
+    margin: 15px auto;
+    display: block;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: white;
+}
+
+footer p,
+#footer {
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+#footer li {
+    margin-right: 10px;
+    list-style: none;
+}
+
+svg {
+    width: 18px;
+}
+
+svg:hover {
+    fill: #29ca8e;
+}
+
+#facebook-svg:hover {
+    fill: #29ca8e;
 }
 
 img {
@@ -434,150 +746,6 @@ img {
             margin-top: 20px;
             position: relative;
             margin-bottom: 50px;
-        }
-
-        .team-info {
-            margin-left: 40px;
-            margin-right: 40px;
-        }
-
-        .team-img {
-            margin-bottom: 20px;
-        }
-
-        .team-name {
-            font-size: 1.7rem;
-            letter-spacing: 1px;
-            font-weight: 200;
-            margin-bottom: 10px;
-        }
-
-        .job-title {
-            font-size: 1.2rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-
-        .job-description {
-            color: #757575;
-            line-height: 1.8;
-            font-size: 1rem;
-            font-weight: bold;
-            margin-bottom: 50px;
-        }
-
-        .testimonials {
-            background-color: #202020;
-            color: white;
-            height: 400px;
-            padding-left: 20px;
-        }
-
-        .review-heading {
-            font-size: 2.5rem;
-            padding-top: 30px;
-            padding-bottom: 20px;
-            font-weight: bold;
-        }
-
-        .review-paragraph {
-            font-size: 1.3rem;
-            font-style: italic;
-            line-height: 1.5;
-            font-weight: 100;
-            padding-bottom: 2rem;
-        }
-
-        .test-img {
-            border: 1px solid white;
-            border-radius: 50px;
-            width: 60px;
-            margin-left: 10px;
-
-        }
-
-        .tst-name {
-            display: inline-block;
-            margin-left: 5px;
-            font-size: 1.2rem;
-        }
-
-        .dot-container {
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        .dot {
-            width: 10px;
-            height: 10px;
-            background-color: white;
-            border-radius: 50px;
-            display: inline-block;
-            margin-right: 10px;
-            margin-top: 30px;
-        }
-
-        .dot:hover {
-            background-color: #869791;
-            transition: opacity 0.2s ease;
-        }
-
-        #pricing {
-            background-color: #f9f9f9;
-        }
-
-        .pricing-heading {
-            font-size: 2.4rem;
-            text-align: center;
-            padding-top: 60px;
-            margin-top: 30px;
-            font-weight: 200;
-            letter-spacing: 1px;
-        }
-
-        .plan-container {
-            padding-top: 30px;
-            padding-bottom: 30px;
-            background-color: white;
-            padding-left: 45px;
-        }
-
-        .plan-heading {
-            font-size: 1.7rem;
-            letter-spacing: 1px;
-            font-weight: bold;
-        }
-
-        .plan-list {
-            color: #757575;
-            font-size: 1.1rem;
-            font-weight: bold;
-            line-height: 1.8;
-            list-style: none;
-            padding-bottom: 10px;
-            padding-top: 10px;
-        }
-
-        .price-month {
-            padding-top: 20px;
-        }
-
-        .plan-btn {
-            background-color: #29ca8e;
-            color: white;
-            padding: 0.8rem 2rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            float: right;
-            margin-top: -35px;
-            margin-right: 60px;
-            outline: none;
-        }
-
-        .plan-btn:hover {
-            background-color: black;
-            color: white;
         }
 
     }
