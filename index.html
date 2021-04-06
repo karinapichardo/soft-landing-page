@@ -49,44 +49,57 @@
             </div>
         </section>
         <section id="features">
-            <div class="features-container">
-                <h2 class="features-heading">What you get</h2>
-                <ul id="features-list">
-                    <li onclick="responsiveSection();">Responsive</li>
-                    <li onclick="mobileSection();">Mobile</li>
-                    <li onclick="supportSection();">Support</li>
-                </ul>
+            <h2 class="features-heading">What you get</h2>
 
-                <!--responsive section-->
-                <div id="responsive">
-                    <h3 class="list-heading">Minimal Design</h3>
-                    <p class="list-paragraph">Nam feugiat a ante sollicitudin luctus. Quisque eget placerat massa. Ut quis ligula ornare, pellentesque velit eget, vestibulum est. Donec pretium tristique elit eget sodales. Pellentesque posuere.</p>
-                    <h3 class="list-heading">Easy to use</h3>
-                    <p class="list-paragraph">Aliquam massa massa, consectetur non mattis fringilla, sodales ac turpis. Morbi ac felis sagittis, faucibus mauris vitae, placerat mauris.</p>
+            <div class="flex-container">
+                <div class="features-container">
+                    <div id="responsive">
+                        <ul id="features-list">
+                            <li onclick="responsiveSection();">Responsive</li>
+                            <li onclick="mobileSection();">Mobile</li>
+                            <li onclick="supportSection();">Support</li>
+                        </ul>
+                        <h3 class="list-heading">Minimal Design</h3>
+                        <p class="list-paragraph">Nam feugiat a ante sollicitudin luctus. Quisque eget placerat massa. Ut quis ligula ornare, pellentesque velit eget, vestibulum est. Donec pretium tristique elit eget sodales. Pellentesque posuere.</p>
+                        <h3 class="list-heading">Easy to use</h3>
+                        <p class="list-paragraph">Aliquam massa massa, consectetur non mattis fringilla, sodales ac turpis. Morbi ac felis sagittis, faucibus mauris vitae, placerat mauris.</p>
+                    </div>
+
+                    <!--mobile section-->
+                    <div id="mobile">
+                        <ul id="features-list">
+                            <li onclick="responsiveSection();">Responsive</li>
+                            <li onclick="mobileSection();">Mobile</li>
+                            <li onclick="supportSection();">Support</li>
+                        </ul>
+                        <h3 class="list-heading">Compatible Browsers</h3>
+                        <p class="list-paragraph">Nam maximus elit a metus luctus, a faucibus magna mattis. Ut malesuada viverra iaculis. Nunc euismod sit amet neque a tincidunt.</p>
+                        <h3 class="list-heading">User Friendly</h3>
+                        <p class="list-paragraph">Maecenas maximus velit lorem, quis pharetra turpis fringilla id. Vestibulum tempor facilisis efficitur. Sed nec nisi sit amet nibh pellentesque elementum.</p>
+                        <h3 class="list-heading">HTML5 &amp; CSS3</h3>
+                        <p class="list-paragraph">In viverra ipsum ornare sapien rhoncus ullamcorper. Vivamus vitae risus ac mi vehicula sagittis. Nulla dictum magna sit amet pharetra aliquam.</p>
+                    </div>
+
+                    <!--support section-->
+                    <div id="support">
+                        <ul id="features-list">
+                            <li onclick="responsiveSection();">Responsive</li>
+                            <li onclick="mobileSection();">Mobile</li>
+                            <li onclick="supportSection();">Support</li>
+                        </ul>
+                        <h3 class="list-heading">Quick Support</h3>
+                        <p class="list-paragraph">Mauris rutrum est at fringilla pulvinar. Nam ligula urna, lobortis non scelerisque vel, molestie eu massa. Nullam mattis elit at tortor accumsan.</p>
+                        <h3 class="list-heading">Managed Stuffs</h3>
+                        <p class="list-paragraph">Quisque ullamcorper sem quis sapien cursus efficitur. Sed id sodales ipsum. Morbi eleifend tempus erat sit amet vehicula. Nulla at posuere tellus, non mattis erat. Nulla id massa gravida.</p>
+                    </div>
                 </div>
 
-                <!--mobile section-->
-                <div id="mobile">
-                    <h3 class="list-heading">Compatible Browsers</h3>
-                    <p class="list-paragraph">Nam maximus elit a metus luctus, a faucibus magna mattis. Ut malesuada viverra iaculis. Nunc euismod sit amet neque a tincidunt.</p>
-                    <h3 class="list-heading">User Friendly</h3>
-                    <p class="list-paragraph">Maecenas maximus velit lorem, quis pharetra turpis fringilla id. Vestibulum tempor facilisis efficitur. Sed nec nisi sit amet nibh pellentesque elementum.</p>
-                    <h3 class="list-heading">HTML5 &amp; CSS3</h3>
-                    <p class="list-paragraph">In viverra ipsum ornare sapien rhoncus ullamcorper. Vivamus vitae risus ac mi vehicula sagittis. Nulla dictum magna sit amet pharetra aliquam.</p>
-                </div>
 
-                <!--support section-->
-                <div id="support">
-                    <h3 class="list-heading">Quick Support</h3>
-                    <p class="list-paragraph">Mauris rutrum est at fringilla pulvinar. Nam ligula urna, lobortis non scelerisque vel, molestie eu massa. Nullam mattis elit at tortor accumsan.</p>
-                    <h3 class="list-heading">Managed Stuffs</h3>
-                    <p class="list-paragraph">Quisque ullamcorper sem quis sapien cursus efficitur. Sed id sodales ipsum. Morbi eleifend tempus erat sit amet vehicula. Nulla at posuere tellus, non mattis erat. Nulla id massa gravida.</p>
-                </div>
+                <figure>
+                    <img src="images/feature-mockup.png" alt="laptop" class="laptop">
+                </figure>
             </div>
 
-            <figure>
-                <img src="images/feature-mockup.png" alt="laptop" class="laptop">
-            </figure>
         </section>
 
         <section id="about-us">
@@ -94,6 +107,7 @@
             <div class="grid-container">
                 <div class="team-container1">
                     <img src="images/team-image1.jpg" alt="team member in sunglasses and hat smiling wearing blue shirt" class="team-img">
+                    <div class="img-pointer2"></div>
                     <div class="team-info">
                         <h3 class="team-name">Andrew Orange</h3>
                         <h4 class="job-title">Art Director</h4>
@@ -101,15 +115,17 @@
                     </div>
                 </div>
                 <div class="team-container2">
-                    <img src="images/team-image2.jpg" alt="team member female in stripped blouse" class="team-img">
-                    <div class="team-info">
+                    <div class="team-info" id="team2">
                         <h3 class="team-name">Catherine Soft</h3>
                         <h4 class="job-title">Senior Manager</h4>
                         <p class="job-description team2">Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <div class="img-pointer" id="img-pointer2"></div>
                     </div>
+                    <img src="images/team-image2.jpg" alt="team member female in stripped blouse" class="team-img">
                 </div>
                 <div class="team-container3">
                     <img src="images/team-image3.jpg" alt="team member in reading glasses wearing a hat and with a mustache smiling" class="team-img">
+                    <div class="img-pointer2"></div>
                     <div class="team-info">
                         <h3 class="team-name">Jack Wilson</h3>
                         <h4 class="job-title">CEO / Founder</h4>
@@ -118,23 +134,48 @@
                 </div>
             </div>
         </section>
+
         <section id="reviews">
             <div class="review-container">
-                <img src="images/testimonial-image.jpg" alt="people browsing through a laptop and smiling">
+                <img src="images/testimonial-image.jpg" alt="people browsing through a laptop and smiling" class="review-img">
                 <div class="testimonials">
                     <h2 class="review-heading">What People Say</h2>
-                    <p class="review-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
-                    <div class="review-photo">
-                        <img src="images/tst-image1.jpg" class="test-img">
-                        <h4 class="tst-name">Austin</h4>
+
+                    <!--                    first testimony-->
+                    <div id="tst1">
+                        <p class="review-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <div class="review-photo">
+                            <img src="images/tst-image1.jpg" class="test-img">
+                            <h4 class="tst-name">Austin</h4>
+                        </div>
                     </div>
+
+                    <!--                    second testimony-->
+                    <div id="tst2">
+                        <p class="review-paragraph">Donec pretium tristique elit eget sodales. Pellentesque posuere, nunc id interdum venenatis, leo odio cursus sapien, ac malesuada nisl libero eget urna.</p>
+                        <div class="review-photo">
+                            <img src="images/tst-image2.jpg" class="test-img">
+                            <h4 class="tst-name">Sofia</h4>
+                        </div>
+                    </div>
+
+                    <!--                    third testimony -->
+                    <div id="tst3">
+                        <p class="review-paragraph">Vestibulum tempor facilisis efficitur. Sed nec nisi sit amet nibh pellentesque elementum. In viverra ipsum ornare sapien rhoncus ullamcorper.</p>
+                        <div class="review-photo">
+                            <img src="images/tst-image3.jpg" class="test-img">
+                            <h4 class="tst-name">Monica</h4>
+                        </div>
+                    </div>
+
                     <div class="dot-container">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
+                        <div class="dot" onclick="firstTst();"></div>
+                        <div class="dot" onclick="secondTst();"></div>
+                        <div class="dot" onclick="thirdTst();"></div>
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section id="pricing">
@@ -188,20 +229,18 @@
         </section>
 
         <section id="contact">
-            <h2 class="heading">Say hello to us</h2>
+            <h2 class="contact-heading">Say hello to us</h2>
             <form id="contact-form">
                 <div class="form-content">
                     <label for="full-name" id="name-label"></label>
                     <input type="text" placeholder="Full name" id="name" name="full-name" class="form-control">
 
-                    <label for="email" id="email-label"></label>
-                    <input type="email" placeholder="Email address" id="email" name="email" required>
-
-                    <textarea id="message" name="message" rows="8" cols="40">Message</textarea>
-
-                    <input type="submit" id="submit" placeholder="Send Message">
+                    <label for="email-contact" id="email-label"></label>
+                    <input type="email-contact" placeholder="Email address" id="contact-email" name="email" required>
                 </div>
 
+                <textarea id="message" name="message" rows="8" cols="40">Message</textarea>
+                <input type="submit" id="submit" placeholder="Send Message">
 
             </form>
         </section>
@@ -213,8 +252,8 @@
             <li>
                 <a href="https://www.facebook.com/" target="_blank">
                     <svg class="icons" id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px" height="20px" viewBox="0 0 10 20" version="1.1">
-                        <g id="Page-1" stroke="none" stroke-width="1" fill="white" fill-rule="evenodd">
-                            <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)" fill="white">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="black" fill-rule="evenodd">
+                            <g id="facebook-svg" transform="translate(-385.000000, -7399.000000)" fill="black">
                                 <g id="icons" transform="translate(56.000000, 160.000000)">
                                     <path d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z" id="facebook-[#176]" />
                                 </g>
