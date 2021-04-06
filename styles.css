@@ -138,7 +138,7 @@ input[type=submit] {
     height: 50px;
     border-radius: 40px;
     border: none;
-    margin-left: -70px;
+    margin-left: -75px;
     font-size: 0.9rem;
     outline-width: 0;
     cursor: pointer;
@@ -367,6 +367,7 @@ figure {
     border: 1px solid white;
     border-radius: 50px;
     width: 60px;
+    height: auto;
     margin-left: 10px;
 
 }
@@ -502,7 +503,7 @@ hr {
     padding: 1rem;
     width: 800px;
     outline-color: #29ca8e;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: #bdbdbd;
 }
 
@@ -569,8 +570,8 @@ img {
     }
 
     #features {
-        height: 105vh;
-/*        margin-bottom: 8%;*/
+        /*        height: 100vh;*/
+        /*        margin-bottom: 8%;*/
     }
 
     .features-container {
