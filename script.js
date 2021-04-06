@@ -21,3 +21,21 @@ function supportSection(support) {
     document.querySelector('#responsive').style.display = 'none';
     document.querySelector('#mobile').style.display = 'none';
 }
+
+function firstTst() {
+    document.querySelector('#tst1').style.display = 'block';
+    document.querySelector('#tst2').style.display = 'none';
+    document.querySelector('#tst3').style.display = 'none';
+}
+
+function secondTst() {
+    document.querySelector('#tst1').style.display = 'none';
+    document.querySelector('#tst2').style.display = 'block';
+    document.querySelector('#tst3').style.display = 'none';
+}
+
+function thirdTst() {
+    document.querySelector('#tst1').style.display = 'none';
+    document.querySelector('#tst2').style.display = 'none';
+    document.querySelector('#tst3').style.display = 'block';
+}
