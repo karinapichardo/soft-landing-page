@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script defer src="script.js"></script>
     <title>Soft Landing</title>
 </head>
@@ -96,7 +97,7 @@
 
 
                 <figure>
-                    <img src="images/feature-mockup.png" alt="laptop" class="laptop">
+                    <img src="images/feature-mockup.png" alt="laptop" class="laptop" data-aos="slide-up">
                 </figure>
             </div>
 
@@ -106,7 +107,7 @@
             <h2 class="heading">Professional Team for you</h2>
             <div class="grid-container">
                 <div class="team-container1">
-                    <img src="images/team-image1.jpg" alt="team member in sunglasses and hat smiling wearing blue shirt" class="team-img">
+                    <img src="images/team-image1.jpg" alt="team member in sunglasses and hat smiling wearing blue shirt" class="team-img" data-aos="slide-right">
                     <div class="img-pointer2"></div>
                     <div class="team-info">
                         <h3 class="team-name">Andrew Orange</h3>
@@ -121,10 +122,10 @@
                         <p class="job-description team2">Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
                         <div class="img-pointer" id="img-pointer2"></div>
                     </div>
-                    <img src="images/team-image2.jpg" alt="team member female in stripped blouse" class="team-img">
+                    <img src="images/team-image2.jpg" alt="team member female in stripped blouse" class="team-img" data-aos="slide-up">
                 </div>
                 <div class="team-container3">
-                    <img src="images/team-image3.jpg" alt="team member in reading glasses wearing a hat and with a mustache smiling" class="team-img">
+                    <img src="images/team-image3.jpg" alt="team member in reading glasses wearing a hat and with a mustache smiling" class="team-img" data-aos="slide-left">
                     <div class="img-pointer2"></div>
                     <div class="team-info">
                         <h3 class="team-name">Jack Wilson</h3>
@@ -137,8 +138,8 @@
 
         <section id="reviews">
             <div class="review-container">
-                <img src="images/testimonial-image.jpg" alt="people browsing through a laptop and smiling" class="review-img">
-                <div class="testimonials">
+                <img src="images/testimonial-image.jpg" alt="people browsing through a laptop and smiling" class="review-img" data-aos="slide-right">
+                <div class="testimonials" data-aos="slide-left">
                     <h2 class="review-heading">What People Say</h2>
 
                     <!--                    first testimony-->
@@ -181,7 +182,7 @@
         <section id="pricing">
             <h2 class="pricing-heading">Choose any plan</h2>
             <div class="pricing-container">
-                <div class="plan-container">
+                <div class="plan-container" data-aos="slide-right">
                     <h3 class="plan-heading">Student</h3>
                     <hr>
                     <ul class="plan-list">
@@ -196,7 +197,7 @@
                     <a href="#home" class="plan-btn">Register now</a>
                 </div>
 
-                <div class="plan-container">
+                <div class="plan-container" data-aos="slide-up">
                     <h3 class="plan-heading">Business</h3>
                     <hr>
                     <ul class="plan-list">
@@ -211,7 +212,7 @@
                     <a href="#home" class="plan-btn">Register now</a>
                 </div>
 
-                <div class="plan-container">
+                <div class="plan-container" data-aos="slide-left">
                     <h3 class="plan-heading">Professional</h3>
                     <hr>
                     <ul class="plan-list">
@@ -231,7 +232,7 @@
         <section id="contact">
             <h2 class="contact-heading">Say hello to us</h2>
             <form id="contact-form">
-                <div class="form-content">
+                <div class="form-content" data-aos="slide-right">
                     <label for="full-name" id="name-label"></label>
                     <input type="text" placeholder="Full name" id="name" name="full-name" class="form-control">
 
@@ -239,7 +240,7 @@
                     <input type="email-contact" placeholder="Email address" id="contact-email" name="email" required>
                 </div>
 
-                <textarea id="message" name="message" rows="8" cols="40">Message</textarea>
+                <textarea id="message" name="message" rows="8" cols="40" data-aos="slide-left">Message</textarea>
                 <input type="submit" id="submit" placeholder="Send Message">
 
             </form>
@@ -280,6 +281,11 @@
             </li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
 </body>
 
 </html>
