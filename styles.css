@@ -436,7 +436,7 @@ figure {
 
 .pricing-container {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: repeat(3, 400px);
     justify-content: center;
     align-items: center;
     margin-bottom: 8rem;
@@ -573,3 +573,249 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
+
+/*larger tablets*/
+
+@media (max-width: 1024px) {
+    #main-nav li a {
+        margin-right: 5px;
+        font-size: 1.3rem;
+    }
+
+    #main-nav #logo-name a {
+        font-size: 1.5rem;
+        margin-left: -120px;
+        margin-right: 2px;
+    }
+
+    #main-nav #email-menu a {
+        margin-left: 5px;
+        margin-right: -170px;
+    }
+
+    .content-container {
+        margin-top: 500px;
+    }
+
+    .small-heading {
+        font-size: 1.3rem;
+    }
+
+    input[type="email"] {
+        font-size: 1.3rem;
+    }
+
+
+    #email {
+        height: 50px;
+        width: 300px;
+    }
+
+    #submit-btn {
+        font-size: 1.3rem;
+        width: 200px;
+        height: 50px;
+    }
+
+    #features {
+        height: 90vh;
+    }
+
+    .features-heading {
+        padding-top: 10rem;
+        font-size: 3.7rem;
+        padding-bottom: 5rem;
+    }
+
+    .features-container {
+        margin-left: 2rem;
+    }
+
+    #features-list li,
+    .list-heading {
+        font-size: 2.2rem;
+    }
+
+    .list-paragraph {
+        font-size: 1.5rem;
+    }
+
+    .laptop {
+        margin-top: 110px;
+    }
+
+    .heading,
+    .review-heading,
+    .pricing-heading {
+        font-size: 3.7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(3, 340px);
+    }
+
+    .team-info {
+        width: 340px;
+    }
+
+    .team-name {
+        font-size: 2.3rem;
+    }
+
+    .job-title {
+        font-size: 1.7rem;
+    }
+
+    .job-description {
+        font-size: 1.4rem;
+    }
+
+    .review-container {
+        display: block;
+    }
+
+    .review-heading {
+        padding-top: 5rem;
+    }
+
+    .review-img,
+    .testimonials {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonials {
+        height: 600px;
+    }
+
+    .review-paragraph,
+    .tst-name {
+        font-size: 2.3rem;
+    }
+
+    .test-img {
+        width: 80px;
+        height: auto;
+    }
+
+    .tst-name {
+        margin-top: 2px;
+        margin-left: 1rem;
+    }
+
+    .pricing-container {
+        grid-template-columns: repeat(3, 350px);
+    }
+
+    .plan-btn {
+        width: 175px;
+        height: 45px;
+        font-size: 1.2rem;
+        margin-right: 25px;
+    }
+
+    /*    smaller tablets*/
+    @media (max-width: 768px) {
+        #main-nav li a {
+            margin-right: -10px;
+            font-size: 0.9rem;
+        }
+
+        #main-nav #logo-name a {
+            font-size: 1.4rem;
+            margin-left: -80px;
+            margin-right: -10px;
+        }
+
+        #main-nav #email-menu a {
+            margin-right: -130px;
+        }
+
+        .content-container {
+            margin-top: 350px;
+        }
+
+        .features-heading,
+        .heading {
+            font-size: 2.5rem;
+            padding-bottom: 2rem;
+        }
+
+        #features-list li,
+        .list-heading {
+            font-size: 1.4rem;
+        }
+
+        .list-paragraph {
+            font-size: 1rem;
+        }
+
+        .laptop {
+            width: 300px;
+            height: auto;
+        }
+
+        .grid-container {
+            grid-template-columns: repeat(3, 250px);
+        }
+
+        .testimonials {
+            height: 500px;
+        }
+
+        .team-info {
+            width: 250px;
+        }
+
+        .team-name {
+            font-size: 1.4rem;
+        }
+
+        .job-title {
+            font-size: 1.3rem;
+        }
+
+        .job-description {
+            font-size: 1.2rem;
+        }
+
+        .review-heading,
+        .pricing-heading {
+            font-size: 2.4rem;
+        }
+
+        .review-paragraph,
+        .tst-name {
+            font-size: 1.6rem;
+        }
+
+        .test-img {
+            width: 60px;
+            height: auto;
+        }
+
+        .pricing-container {
+            grid-template-columns: repeat(3, 250px);
+        }
+
+        .price-month {
+            margin-left: 30px;
+        }
+
+        .plan-btn {
+            width: 175px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-right: 35px;
+        }
+
+        textarea {
+            max-width: 402px;
+        }
+
+        #submit {
+            font-size: 1.3rem;
+        }
+    }
