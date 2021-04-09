@@ -20,6 +20,8 @@ body {
     background-color: #f9f9f9;
 }
 
+/*home section*/
+
 input[type=checkbox] {
     display: none;
 }
@@ -761,6 +763,9 @@ img {
 /*    smaller tablets*/
 
 @media (max-width: 768px) {
+
+    /*home section*/
+
     #main-nav li a {
         margin-right: -10px;
         font-size: 0.9rem;
@@ -869,6 +874,9 @@ img {
 /*styles for mobile devices*/
 
 @media (max-width: 540px) {
+
+    /*home section*/
+
     #main-nav #logo-name a {
         display: none;
     }
