@@ -574,7 +574,7 @@ img {
     vertical-align: middle;
 }
 
-/*larger tablets*/
+/*styles larger tablets*/
 
 @media (max-width: 1024px) {
     #main-nav li a {
@@ -713,6 +713,7 @@ img {
 }
 
 /*    smaller tablets*/
+
 @media (max-width: 768px) {
     #main-nav li a {
         margin-right: -10px;
@@ -811,6 +812,8 @@ img {
     }
 }
 
+/*styles for mobile devices*/
+
 @media (max-width: 540px) {
     #main-nav #logo-name a {
         display: none;
@@ -854,6 +857,7 @@ img {
     }
 
     /*for hiden checkbox*/
+
     #menuToggle input {
         display: block;
         width: 40px;
@@ -867,6 +871,7 @@ img {
     }
 
     /*hamburger lines*/
+
     #menuToggle span {
         display: block;
         width: 33px;
@@ -1020,6 +1025,8 @@ img {
         font-size: 1.3rem;
     }
 }
+
+/*styles for smaller phones*/
 
 @media (max-width: 320px) {
     .testimonials {
