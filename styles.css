@@ -546,6 +546,7 @@ hr {
     outline-color: #29ca8e;
     margin-right: -3px;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 #message {
@@ -554,6 +555,7 @@ hr {
     outline-color: #29ca8e;
     font-size: 1.5rem;
     color: #bdbdbd;
+    cursor: pointer;
 }
 
 #submit {
