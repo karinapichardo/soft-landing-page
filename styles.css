@@ -401,6 +401,13 @@ figure {
     margin-left: 80px;
     margin-top: -40px;
     font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.tst-name:hover {
+    color: #29ca8e;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 #tst2,
