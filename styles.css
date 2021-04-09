@@ -168,14 +168,14 @@ input[type=submit]:hover {
 
 .flex-container {
     display: flex;
-    direction: row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .features-container {
     display: flex;
-    direction: column;
+    flex-direction: column;
     width: 550px;
     height: 500px;
 }
@@ -183,7 +183,7 @@ input[type=submit]:hover {
 figure {
     height: 500px;
     display: flex;
-    direction: column;
+    flex-direction: column;
     margin-top: -350px;
 }
 
@@ -331,7 +331,7 @@ figure {
 
 .review-container {
     display: flex;
-    direction: row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -353,7 +353,7 @@ figure {
 
 .review-photo {
     display: flex;
-    direction: column;
+    flex-direction: column;
 }
 
 .review-heading {
@@ -545,7 +545,7 @@ footer p,
 
 #footer {
     display: flex;
-    direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -710,317 +710,319 @@ img {
         font-size: 1.2rem;
         margin-right: 25px;
     }
+}
 
-    /*    smaller tablets*/
-    @media (max-width: 768px) {
-        #main-nav li a {
-            margin-right: -10px;
-            font-size: 0.9rem;
-        }
+/*    smaller tablets*/
+@media (max-width: 768px) {
+    #main-nav li a {
+        margin-right: -10px;
+        font-size: 0.9rem;
+    }
 
-        #main-nav #logo-name a {
-            font-size: 1.4rem;
-            margin-left: -80px;
-            margin-right: -10px;
-        }
+    #main-nav #logo-name a {
+        font-size: 1.4rem;
+        margin-left: -80px;
+        margin-right: -10px;
+    }
 
-        #main-nav #email-menu a {
-            margin-right: -130px;
-        }
+    #main-nav #email-menu a {
+        margin-right: -130px;
+    }
 
-        .content-container {
-            margin-top: 350px;
-        }
+    .content-container {
+        margin-top: 350px;
+    }
 
-        .features-heading,
-        .heading {
-            font-size: 2.5rem;
-            padding-bottom: 2rem;
-        }
+    .features-heading,
+    .heading {
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
+    }
 
-        #features-list li,
-        .list-heading {
-            font-size: 1.4rem;
-        }
+    #features-list li,
+    .list-heading {
+        font-size: 1.4rem;
+    }
 
-        .list-paragraph {
-            font-size: 1rem;
-        }
+    .list-paragraph {
+        font-size: 1rem;
+    }
 
-        .laptop {
-            width: 300px;
-            height: auto;
-        }
+    .laptop {
+        width: 300px;
+        height: auto;
+    }
 
-        .grid-container {
-            grid-template-columns: repeat(3, 250px);
-        }
+    .grid-container {
+        grid-template-columns: repeat(3, 250px);
+    }
 
-        .testimonials {
-            height: 500px;
-        }
+    .testimonials {
+        height: 500px;
+    }
 
-        .team-info {
-            width: 250px;
-        }
+    .team-info {
+        width: 250px;
+    }
 
-        .team-name {
-            font-size: 1.4rem;
-        }
+    .team-name {
+        font-size: 1.4rem;
+    }
 
-        .job-title {
-            font-size: 1.3rem;
-        }
+    .job-title {
+        font-size: 1.3rem;
+    }
 
-        .job-description {
-            font-size: 1.2rem;
-        }
+    .job-description {
+        font-size: 1.2rem;
+    }
 
-        .review-heading,
-        .pricing-heading {
-            font-size: 2.4rem;
-        }
+    .review-heading,
+    .pricing-heading {
+        font-size: 2.4rem;
+    }
 
-        .review-paragraph,
-        .tst-name {
-            font-size: 1.6rem;
-        }
+    .review-paragraph,
+    .tst-name {
+        font-size: 1.6rem;
+    }
 
-        .pricing-container {
-            grid-template-columns: repeat(3, 250px);
-        }
+    .pricing-container {
+        grid-template-columns: repeat(3, 250px);
+    }
 
-        .price-month {
-            margin-left: 30px;
-        }
+    .price-month {
+        margin-left: 30px;
+    }
 
-        .plan-btn {
-            width: 175px;
-            margin-top: 10px;
-            margin-right: 20px;
-            margin-right: 35px;
-        }
+    .plan-btn {
+        width: 175px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-right: 35px;
+    }
 
-        textarea {
-            max-width: 402px;
-        }
+    textarea {
+        max-width: 402px;
+    }
 
-        #submit {
-            font-size: 1.3rem;
-        }
+    #submit {
+        font-size: 1.3rem;
+    }
+}
 
-        @media (max-width: 540px) {
-            #main-nav #logo-name a {
-                display: none;
-            }
+@media (max-width: 540px) {
+    #main-nav #logo-name a {
+        display: none;
+    }
 
-            nav.scroll {
-                background-color: transparent;
-            }
+    nav.scroll {
+        background-color: transparent;
+    }
 
-            #main-nav #email-menu a {
-                margin-left: -80px;
-            }
+    #main-nav #email-menu a {
+        margin-left: -80px;
+    }
 
-            #menuToggle:after {
-                content: 'Soft Landing';
-                left: 35%;
-                top: -35px;
-                font-weight: bold;
-                position: relative !important;
-                color: white;
-                font-size: 1.65rem;
-            }
+    #menuToggle:after {
+        content: 'Soft Landing';
+        left: 35%;
+        top: -35px;
+        font-weight: bold;
+        position: relative !important;
+        color: white;
+        font-size: 1.65rem;
+    }
 
-            #menuToggle {
-                width: 100%;
-                background-color: #29ca8e;
-                display: block;
-                height: 40px;
-                position: fixed;
-                z-index: 1;
-                user-select: none;
-            }
+    #menuToggle {
+        width: 100%;
+        background-color: #29ca8e;
+        display: block;
+        height: 40px;
+        position: fixed;
+        z-index: 1;
+        user-select: none;
+    }
 
-            #menuToggle a {
-                text-decoration: none;
-                color: white;
-            }
+    #menuToggle a {
+        text-decoration: none;
+        color: white;
+    }
 
-            #menuToggle a:hover {
-                color: white;
-            }
+    #menuToggle a:hover {
+        color: white;
+    }
 
-            /*for hiden checkbox*/
-            #menuToggle input {
-                display: block;
-                width: 40px;
-                height: 32px;
-                position: absolute;
-                top: -7px;
-                left: -5px;
-                cursor: pointer;
-                opacity: 0;
-                z-index: 2;
-            }
+    /*for hiden checkbox*/
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
 
-            /*hamburger lines*/
-            #menuToggle span {
-                display: block;
-                width: 33px;
-                height: 4px;
-                margin-bottom: 5px;
-                position: relative;
-                background: white;
-                border-radius: 3px;
-                margin-left: 7px;
-                margin-top: 5px;
-                z-index: 1;
-                transform-origin: 4px 0px;
-                transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-                    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-                    opacity 0.55s ease;
-            }
+    /*hamburger lines*/
+    #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: white;
+        border-radius: 3px;
+        margin-left: 7px;
+        margin-top: 5px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            opacity 0.55s ease;
+    }
 
-            #menuToggle span:first-child {
-                transform-origin: 0% 0%;
-            }
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
 
-            #menuToggle span:nth-last-child(2) {
-                transform-origin: 0% 100%;
-            }
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
 
-            /* transforms all the slices of hamburger into a crossmark*/
+    /* transforms all the slices of hamburger into a crossmark*/
 
-            #menuToggle input:checked ~ span {
-                opacity: 1;
-                transform: rotate(45deg) translate(-5px, 0px);
-                background: white;
-            }
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-5px, 0px);
+        background: white;
+    }
 
-            #menuToggle input:checked ~ span:nth-last-child(3),
-            #menuToggle input:checked ~ span:nth-last-child(5) {
-                opacity: 0;
-                transform: rotate(0deg) scale(0.2, 0.2);
-            }
+    #menuToggle input:checked ~ span:nth-last-child(3),
+    #menuToggle input:checked ~ span:nth-last-child(5) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
 
-            #menuToggle input:checked ~ span:nth-last-child(2) {
-                transform: rotate(-55deg) translate(0, -1px);
-            }
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-55deg) translate(0, -1px);
+    }
 
-            #main-nav {
-                position: fixed;
-                padding: 0 42% 1.85rem 42%;
-                margin-top: 25px;
-                background: #29ca8e;
-                list-style-type: none;
-                transform-origin: 0% 0%;
-                transform: translate(0, -100%);
-                transition: transform 0.5s;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
+    #main-nav {
+        position: fixed;
+        padding: 0 42% 1.85rem 42%;
+        margin-top: 25px;
+        background: #29ca8e;
+        list-style-type: none;
+        transform-origin: 0% 0%;
+        transform: translate(0, -100%);
+        transition: transform 0.5s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-            #main-nav li a {
-                padding: 5px 0;
-                font-size: 1.2rem;
-            }
+    #main-nav li a {
+        padding: 5px 0;
+        font-size: 1.2rem;
+    }
 
-            /*causes menu to slide in*/
-            #menuToggle input:checked ~ ul {
-                transform: none;
-                text-align: center;
-            }
+    /*causes menu to slide in*/
+    #menuToggle input:checked ~ ul {
+        transform: none;
+        text-align: center;
+    }
 
 
-            .content-container {
-                margin-top: 180px;
-            }
+    .content-container {
+        margin-top: 180px;
+    }
 
-            .small-heading {
-                font-size: 1rem;
-            }
+    .small-heading {
+        font-size: 1rem;
+    }
 
-            .home-heading,
-            .heading {
-                font-size: 2rem;
-            }
+    .home-heading,
+    .heading {
+        font-size: 2rem;
+    }
 
-            #email {
-                font-size: 1rem;
-                width: 250px;
-            }
+    #email {
+        font-size: 1rem;
+        width: 250px;
+    }
 
-            #submit-btn {
-                margin: 15px auto;
-                display: block;
-                width: 140px;
-                font-size: 1rem;
-            }
+    #submit-btn {
+        margin: 15px auto;
+        display: block;
+        width: 140px;
+        font-size: 1rem;
+    }
 
-            #features {
-                height: auto;
-                padding-bottom: 20px;
-            }
+    #features {
+        height: auto;
+        padding-bottom: 20px;
+    }
 
-            .flex-container {
-                display: block;
-            }
+    .flex-container {
+        display: block;
+    }
 
-            .features-container {
-                display: block;
-                width: 250px;
-            }
+    .features-container {
+        display: block;
+        width: 250px;
+    }
 
-            .laptop {
-                display: none;
-            }
+    .laptop {
+        display: none;
+    }
 
-            .features-heading {
-                padding-top: 3rem;
-                padding-bottom: 1rem;
-            }
+    .features-heading {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
 
-            .grid-container {
-                grid-template-columns: repeat(1, 350px);
-            }
+    .grid-container {
+        grid-template-columns: repeat(1, 350px);
+    }
 
-            .team-info {
-                width: 350px;
-                padding-left: 38px;
-            }
+    .team-info {
+        width: 350px;
+        padding-left: 38px;
+    }
 
-            .testimonials {
-                height: 650px;
-            }
+    .testimonials {
+        height: 650px;
+    }
 
-            .review-heading {
-                font-size: 2.1rem;
-            }
+    .review-heading {
+        font-size: 2.1rem;
+    }
 
-            .review-paragraph {
-                font-size: 1.5rem;
-            }
+    .review-paragraph {
+        font-size: 1.5rem;
+    }
 
-            .pricing-container {
-                grid-template-columns: repeat(1, 350px);
-            }
+    .pricing-container {
+        grid-template-columns: repeat(1, 350px);
+    }
 
-            .plan-btn {
-                margin-top: -40px;
-                font-size: 1.1rem;
-            }
+    .plan-btn {
+        margin-top: -40px;
+        font-size: 1.1rem;
+    }
 
-            .price-month {
-                margin-left: 0px;
-                font-size: 1.3rem;
-            }
-        }
+    .price-month {
+        margin-left: 0px;
+        font-size: 1.3rem;
+    }
+}
 
-        @media (max-width: 320px) {
-            .testimonials {
-                height: 800px;
-            }
-        }
+@media (max-width: 320px) {
+    .testimonials {
+        height: 800px;
+    }
+}
