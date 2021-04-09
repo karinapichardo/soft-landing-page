@@ -486,6 +486,14 @@ figure {
     padding-top: 10px;
 }
 
+.plan-list li {
+    cursor: pointer;
+}
+
+.plan-list li:hover {
+    color: black;
+}
+
 .price-month {
     padding-top: 20px;
 }
