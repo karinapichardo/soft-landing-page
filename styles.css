@@ -612,6 +612,9 @@ img {
 /*styles larger tablets*/
 
 @media (max-width: 1024px) {
+
+    /*    home section*/
+
     #main-nav li a {
         margin-right: 5px;
         font-size: 1.3rem;
@@ -652,6 +655,8 @@ img {
         height: 50px;
     }
 
+    /*    features section*/
+
     #features {
         height: 90vh;
     }
@@ -687,6 +692,8 @@ img {
         padding-bottom: 2rem;
     }
 
+    /*about us section*/
+
     .grid-container {
         grid-template-columns: repeat(3, 340px);
     }
@@ -706,6 +713,8 @@ img {
     .job-description {
         font-size: 1.4rem;
     }
+
+    /*reviews section*/
 
     .review-container {
         display: block;
@@ -734,6 +743,8 @@ img {
         margin-top: -45px;
         margin-left: 5rem;
     }
+
+    /*pricing section*/
 
     .pricing-container {
         grid-template-columns: repeat(3, 350px);
@@ -768,6 +779,8 @@ img {
     .content-container {
         margin-top: 350px;
     }
+
+    /*features section*/
 
     .features-heading,
     .heading {
@@ -813,6 +826,8 @@ img {
         font-size: 1.2rem;
     }
 
+    /*reviews sections*/
+
     .review-heading,
     .pricing-heading {
         font-size: 2.4rem;
@@ -822,6 +837,8 @@ img {
     .tst-name {
         font-size: 1.6rem;
     }
+
+    /*pricing section*/
 
     .pricing-container {
         grid-template-columns: repeat(3, 250px);
@@ -837,6 +854,8 @@ img {
         margin-right: 20px;
         margin-right: 35px;
     }
+
+    /*contact section*/
 
     textarea {
         max-width: 402px;
@@ -1002,6 +1021,8 @@ img {
         font-size: 1rem;
     }
 
+    /*features section*/
+
     #features {
         height: auto;
         padding-bottom: 20px;
@@ -1024,6 +1045,8 @@ img {
         padding-top: 3rem;
         padding-bottom: 1rem;
     }
+
+    /*about us section*/
 
     .grid-container {
         grid-template-columns: repeat(1, 350px);
@@ -1049,6 +1072,8 @@ img {
     .tst-name {
         font-size: 1.3rem;
     }
+
+    /*pricing section*/
 
     .pricing-container {
         grid-template-columns: repeat(1, 350px);
