@@ -393,6 +393,7 @@ figure {
 
 .test-img:hover {
     transform: scale(1.2) rotate(2deg);
+    transition: 0.4s ease-in;
 }
 
 .tst-name {
@@ -514,6 +515,7 @@ figure {
 .plan-btn:hover {
     background-color: black;
     color: white;
+    transition: 0.4s ease-in;
 }
 
 hr {
@@ -595,6 +597,7 @@ svg {
 
 svg:hover {
     fill: #29ca8e;
+    transition: 0.2s ease-in;
 }
 
 #facebook-svg:hover {
