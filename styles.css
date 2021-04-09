@@ -819,8 +819,7 @@ img {
             }
 
             #main-nav #email-menu a {
-                margin-left: -55px;
-                margin-right: -55px;
+                margin-left: -80px;
             }
 
             #menuToggle:after {
@@ -830,7 +829,7 @@ img {
                 font-weight: bold;
                 position: relative !important;
                 color: white;
-                font-size: 1.5rem;
+                font-size: 1.65rem;
             }
 
             #menuToggle {
@@ -911,7 +910,7 @@ img {
 
             #main-nav {
                 position: fixed;
-                padding: 0 34% 1.83rem 35%;
+                padding: 0 42% 1.85rem 42%;
                 margin-top: 25px;
                 background: #29ca8e;
                 list-style-type: none;
@@ -924,10 +923,9 @@ img {
                 align-items: center;
             }
 
-            #main-nav li {
+            #main-nav li a {
                 padding: 5px 0;
-                margin-right: 5px;
-                font-size: 0.9rem;
+                font-size: 1.2rem;
             }
 
             /*causes menu to slide in*/
