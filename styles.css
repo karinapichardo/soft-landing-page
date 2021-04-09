@@ -961,19 +961,27 @@ img {
             }
 
             #features {
-                height: 140vh;
-            }
-
-            .features-heading {
-                padding-top: 3rem;
-                padding-bottom: 1rem;
+                height: auto;
+                padding-bottom: 20px;
             }
 
             .flex-container {
                 display: block;
             }
 
-            .laptop {}
+            .features-container {
+                display: block;
+                width: 250px;
+            }
+
+            .laptop {
+                display: none;
+            }
+
+            .features-heading {
+                padding-top: 3rem;
+                padding-bottom: 1rem;
+            }
 
             .grid-container {
                 grid-template-columns: repeat(1, 350px);
@@ -1008,10 +1016,10 @@ img {
                 margin-left: 0px;
                 font-size: 1.3rem;
             }
+        }
 
-            @media (max-width: 320px) {
-                .testimonials {
-                    height: 800px;
-                }
+        @media (max-width: 320px) {
+            .testimonials {
+                height: 800px;
             }
         }
