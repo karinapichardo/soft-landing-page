@@ -81,6 +81,8 @@ nav.scroll #main-nav li a:hover {
     transition: 0.2s ease-in;
 }
 
+/*home section*/
+
 #home {
     position: relative;
     padding-top: 2.8rem;
@@ -100,7 +102,6 @@ nav.scroll #main-nav li a:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    /*    width: 100%;*/
     height: 100%;
 }
 
@@ -159,6 +160,8 @@ input[type=submit]:hover {
     color: white;
     transition: 0.4s ease-in;
 }
+
+/*features section*/
 
 #features {
     height: 90vh;
@@ -236,6 +239,8 @@ figure {
 #support {
     display: none;
 }
+
+/*about us section*/
 
 .heading {
     text-align: center;
@@ -322,6 +327,8 @@ figure {
     margin-bottom: -35px;
     display: block;
 }
+
+/*reviews section */
 
 #reviews {
     background-color: white;
@@ -423,6 +430,8 @@ figure {
     transition: opacity 0.2s ease;
 }
 
+/*pricing section*/
+
 .pricing-heading,
 .contact-heading {
     font-size: 2.8rem;
@@ -496,6 +505,8 @@ hr {
     margin-left: 0px;
 }
 
+/*contact section*/
+
 #contact {
     width: 100%;
     background-color: white;
@@ -533,6 +544,8 @@ hr {
     display: block;
     font-size: 1rem;
 }
+
+/*footer section*/
 
 footer {
     background-color: white;
