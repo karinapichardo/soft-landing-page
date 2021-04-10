@@ -24,4 +24,5 @@ This project was really fun to work on!
 
 
 
-## You can check out my final website here: https://karinapichardo.github.io/soft-landing-page/
+## You can check out my final website here: 
+https://karinapichardo.github.io/soft-landing-page/
