@@ -1046,6 +1046,11 @@ img {
         width: 250px;
     }
 
+    #features-list {
+        display: flex;
+        flex-direction: row;
+    }
+
     .laptop {
         display: none;
     }
