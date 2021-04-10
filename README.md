@@ -13,7 +13,7 @@ This project was really fun to work on!
 * how to add cool / neat features, for example, background-attachments.
 * I was also able to implement a navigation scroll bar that appears only once the user scrolls down a bit using javascript.
 
-## I learned
+## Also learned
 * how javascript can make developing websites easier. In this project, I used event listeners instead of having to create multiple html pages.
 * another big take away that I Iearned with this project, was the importance of developing websites that are cross platform. 
 * I learned how different browsers render information differently and it’s crucial to be aware of those renderings. 
